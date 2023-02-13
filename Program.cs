@@ -6,8 +6,12 @@
 //-3 -> 9
 //-7 -> 49
 
-int a = 2;
-int result = 0;
+//string example = Console.ReadLine();
+//int a = Convert.ToInt32(Console.ReadLine());
+
+
+int a = Convert.ToInt32(Console.ReadLine());
+int result = 1;
 
 result = a * a;
 Console.WriteLine(result);
