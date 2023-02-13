@@ -5,38 +5,32 @@
 //5 -> Пятница
 
 Console.WriteLine("Enter a number ");
-string example = Console.ReadLine();
-int a = Convert.ToInt32(example);
+int a = Convert.ToInt32(Console.ReadLine());
 
-if(a == 1)
+switch (a)
 {
-    Console.WriteLine("Monday");
-}
-if(a == 2)
-{
-    Console.WriteLine("Tuesday");
-}
-if(a == 3)
-{
-    Console.WriteLine("Wednesday");
-}
-if(a == 4)
-{
-    Console.WriteLine("Thursday");
-}
-if(a == 5)
-{
-    Console.WriteLine("Friday");
-}
-if(a == 6)
-{
-    Console.WriteLine("Saturday");
-}
-if(a == 7)
-{
-    Console.WriteLine("Sunday");
-}
-else
-{
-    Console.WriteLine("Enter from 1 to 7");
+    case 1:
+        Console.WriteLine("Monday");
+        break;
+    case 2:
+        Console.WriteLine("Tuesday");
+        break;
+    case 3:
+        Console.WriteLine("Wednesday");
+        break;
+    case 4:
+        Console.WriteLine("Thursday");
+        break;
+    case 5:
+        Console.WriteLine("Friday");
+        break;
+    case 6:
+        Console.WriteLine("Saturday");
+        break;
+    case 7:
+        Console.WriteLine("Sunday");
+        break;
+    default:
+        Console.WriteLine("Enter from 1 to 7");
+        break;
 }
