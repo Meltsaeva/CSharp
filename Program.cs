@@ -6,11 +6,11 @@
 //-3 -> 9
 //-7 -> 49
 
-//string example = Console.ReadLine();
-//int a = Convert.ToInt32(Console.ReadLine());
-string a = Console.ReadLine();
-int result = 1;
+Console.WriteLine("Enter a number ");
+string example = Console.ReadLine();
+int a = Convert.ToInt32(example);
 
-//result = a * a;
-Console.WriteLine(a);
+Console.WriteLine("Output: ");
+int result = a * a;
+Console.WriteLine(result);
 
