@@ -8,11 +8,9 @@
 
 //string example = Console.ReadLine();
 //int a = Convert.ToInt32(Console.ReadLine());
-
-
-int a = Convert.ToInt32(Console.ReadLine());
+string a = Console.ReadLine();
 int result = 1;
 
-result = a * a;
-Console.WriteLine(result);
+//result = a * a;
+Console.WriteLine(a);
 
