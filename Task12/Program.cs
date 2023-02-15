@@ -7,7 +7,7 @@
 //34, 5 -> не кратно, остаток 4
 //16, 4 -> кратно
 
-Console.WriteLine("Input th first number ");
+Console.WriteLine("Input the first number ");
 int a = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Input the second number ");
