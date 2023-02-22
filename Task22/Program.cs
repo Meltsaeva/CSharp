@@ -9,7 +9,7 @@
 double[] a = new double[3];
 for (int i = 0; i < a.Length; i++)
 {
-    Console.WriteLine($"Input the first coordinates");
+    Console.WriteLine($"Input the first coordinates: a[{i}]");
     a[i] =Convert.ToDouble(Console.ReadLine());
     
 }
@@ -18,7 +18,7 @@ for (int i = 0; i < a.Length; i++)
 double[] b = new double[3];
 for (int i = 0; i < b.Length; i++)
 {
-    Console.WriteLine($"Input the second coordinates");
+    Console.WriteLine($"Input the second coordinates: b[{i}]");
     b[i] =Convert.ToDouble(Console.ReadLine());
     
 }
